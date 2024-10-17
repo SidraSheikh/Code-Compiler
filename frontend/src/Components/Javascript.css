@@ -1,0 +1,37 @@
+.bg-image {
+    background-image: url('https://wallpapercave.com/wp/wp11742862.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .tutorial-section {
+    animation: fadeIn 1s ease-in-out;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .btn-try {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-try:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  pre {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

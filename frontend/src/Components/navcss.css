@@ -1,0 +1,9 @@
+.nav-link-custom {
+ font-weight: bold;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16rem; 
+}
+

@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.navbar a {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.navbarr{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  word-spacing: 60px;
+  align-content: center;
+  margin-left: 60px;
+
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Button styles */
+.navbar .btn {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar .btn:hover {
+  background-color: #28a745;
+  transform: scale(1.1);
+}
+
+/* Sign up button styles */
+.navbar .btn-signup {
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar .btn-signup:hover {
+  background-color: #0056b3;
+}
+
+/* Log in button styles */
+.navbar .btn-login {
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar .btn-login:hover {
+  background-color: #5a6268;
+}
